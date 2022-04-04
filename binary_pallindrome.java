@@ -62,11 +62,11 @@ public class binary_pallindrome
         //check flag variable
         if(flag == 1)
         {
-            System.out.println("Pallindrome");
+            System.out.println("The Number is Pallindrome");
         }
         else
         {
-            System.out.println("Not Pallindrome");
+            System.out.println("The Number is not Pallindrome");
         }
         System.out.println(" ");
         
@@ -75,12 +75,14 @@ public class binary_pallindrome
      
     public static void main(String[] args)
     {
+        System.out.println("Hello!! ");
         Scanner ob = new Scanner(System.in);
         System.out.println("Enter number ");
         int n = ob.nextInt();
         binary_pallindrome bp = new binary_pallindrome();
         int arr[] = bp.decimaltobinary(n);
         check_pallindrome(arr);
+        System.out.println("Thank you! ");
     }
         
 }
